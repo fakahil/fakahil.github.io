@@ -1,4 +1,4 @@
-Sitemap: https://example.com/sitemapindex.xml
+Sitemap: https://fakahil.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: example.com
+Host: fakahil.github.io
