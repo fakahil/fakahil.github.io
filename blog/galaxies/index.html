@@ -21,7 +21,22 @@
 <meta property="og:site_name" content="Fatima Kahil">
 <meta property="og:title" content="Galaxies">
 <meta property="og:url" content="https://fakahil.github.io/blog/galaxies/">
-<meta property="og:description" content="Here is a picture of a galaxy">
+<meta property="og:description" content="Here is a picture of a galaxy
+
+1
+2
+3
+4
+5
+6
+7
+8
+9def sieve_of_eratosthenes():
+    factors = defaultdict(set)
+    for n in count(2):
+        if factors[n]:
+            for m in factors.pop(n):
+         ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-02-12T01:52:36+01:00">
 <meta property="article:tag" content="astronomy">
@@ -62,7 +77,7 @@
 <a href="../../about-me/index.html">About me</a>
                 </li>
 <li>
-<a href="../">My blog</a>
+<a href="../index.html">My blog</a>
 
                 
             </li>
@@ -100,7 +115,27 @@
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <p>Here is a picture of a galaxy</p>
-<img alt="/images/galaxy.jpg" src="../../images/galaxy.jpg">
+<img alt="/images/galaxy.jpg" src="../../images/galaxy.jpg"><table class="codetable"><tr>
+<td class="linenos"><div class="linenodiv"><pre><a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-1">1</a>
+<a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-2">2</a>
+<a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-3">3</a>
+<a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-4">4</a>
+<a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-5">5</a>
+<a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-6">6</a>
+<a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-7">7</a>
+<a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-8">8</a>
+<a href="#rest_code_c7abd28e3ed84c07ae71e421b479ce78-9">9</a></pre></div></td>
+<td class="code"><pre class="code python"><a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-1"></a><span class="k">def</span> <span class="nf">sieve_of_eratosthenes</span><span class="p">():</span>
+<a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-2"></a>    <span class="n">factors</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">set</span><span class="p">)</span>
+<a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-3"></a>    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">count</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
+<a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-4"></a>        <span class="k">if</span> <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="p">]:</span>
+<a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-5"></a>            <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">factors</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-6"></a>                <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="n">m</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+<a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-7"></a>        <span class="k">else</span><span class="p">:</span>
+<a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-8"></a>            <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="o">*</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<a name="rest_code_c7abd28e3ed84c07ae71e421b479ce78-9"></a>            <span class="k">yield</span> <span class="n">n</span>
+</pre></td>
+</tr></table>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">

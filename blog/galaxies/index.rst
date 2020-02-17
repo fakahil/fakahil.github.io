@@ -11,3 +11,16 @@ Here is a picture of a galaxy
 
 .. image:: /images/galaxy.jpg
 
+
+.. code-block:: python
+   :number-lines:
+
+   def sieve_of_eratosthenes():
+       factors = defaultdict(set)
+       for n in count(2):
+           if factors[n]:
+               for m in factors.pop(n):
+                   factors[n+m].add(m)
+           else:
+               factors[n*n].add(n)
+               yield n
