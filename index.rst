@@ -7,10 +7,7 @@
 .. description: 
 .. type: text
 
-.. image:: /images/mee.jpg
-   :height: 500 px
-   :width: 500 px
-   :align: center
+
 
 .. class:: jumbotron col-md-6
 
