@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://fakahil.github.io/</loc>
-  <lastmod>2020-02-17T20:51:00Z</lastmod>
+  <lastmod>2020-02-24T20:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/2017/</loc>
@@ -23,59 +23,11 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/archive.html</loc>
-  <lastmod>2020-02-17T22:28:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/plugin/markdown/example.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/plugin/notes-server/notes.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/plugin/notes/notes.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/test/examples/barebones.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/test/examples/embedded-media.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/test/examples/math.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/test/examples/slide-backgrounds.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/test/test-markdown-element-attributes.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/test/test-markdown-slide-attributes.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/test/test-markdown.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/assets/reveal/test/test.html</loc>
-  <lastmod>2020-02-17T21:13:00Z</lastmod>
+  <lastmod>2020-02-24T22:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/blog/</loc>
-  <lastmod>2020-02-17T20:51:00Z</lastmod>
+  <lastmod>2020-02-24T19:04:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/blog/confidence-intervals/</loc>
@@ -84,10 +36,6 @@
  <url>
   <loc>https://fakahil.github.io/blog/curve-fitting/</loc>
   <lastmod>2020-02-12T00:44:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/blog/galaxies/</loc>
-  <lastmod>2020-02-12T00:53:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/</loc>
@@ -122,7 +70,19 @@
   <lastmod>2020-02-02T13:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/science/</loc>
-  <lastmod>2020-02-17T19:57:00Z</lastmod>
+  <loc>https://fakahil.github.io/pages/</loc>
+  <lastmod>2020-02-24T22:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/pages/about-me/</loc>
+  <lastmod>2020-02-24T20:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/pages/science/</loc>
+  <lastmod>2020-02-24T20:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/pages/scientific-computing/</loc>
+  <lastmod>2020-02-24T22:25:00Z</lastmod>
  </url>
 </urlset>
