@@ -6,35 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://fakahil.github.io/categories/astronomy.xml</loc>
-  <lastmod>2020-02-17T20:56:00Z</lastmod>
+  <loc>https://example.com/galleries/rss.xml</loc>
+  <lastmod>2020-02-27T21:48:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://fakahil.github.io/categories/galaxies.xml</loc>
-  <lastmod>2020-02-17T20:56:00Z</lastmod>
+  <loc>https://example.com/rss.xml</loc>
+  <lastmod>2020-02-27T21:48:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://fakahil.github.io/categories/python.xml</loc>
-  <lastmod>2020-02-14T17:27:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://fakahil.github.io/categories/statistics.xml</loc>
-  <lastmod>2020-02-14T17:27:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://fakahil.github.io/galleries/images/rss.xml</loc>
-  <lastmod>2020-02-24T22:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://fakahil.github.io/galleries/rss.xml</loc>
-  <lastmod>2020-02-24T22:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://fakahil.github.io/rss.xml</loc>
-  <lastmod>2020-02-24T19:05:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://fakahil.github.io/sitemap.xml</loc>
-  <lastmod>2020-02-24T22:25:00Z</lastmod>
+  <loc>https://example.com/sitemap.xml</loc>
+  <lastmod>2020-02-27T21:48:00Z</lastmod>
  </sitemap>
 </sitemapindex>
