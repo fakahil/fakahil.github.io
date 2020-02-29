@@ -6,23 +6,67 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/</loc>
-  <lastmod>2020-02-27T21:48:00Z</lastmod>
+  <loc>https://fakahil.github.io/</loc>
+  <lastmod>2020-02-29T14:45:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
-  <lastmod>2020-02-27T21:48:00Z</lastmod>
+  <loc>https://fakahil.github.io/2020/</loc>
+  <lastmod>2020-02-29T14:34:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
-  <lastmod>2020-02-27T21:48:00Z</lastmod>
+  <loc>https://fakahil.github.io/2020/index.htm</loc>
+  <lastmod>2020-02-29T14:42:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
-  <lastmod>2020-02-27T21:48:00Z</lastmod>
+  <loc>https://fakahil.github.io/about-me/</loc>
+  <lastmod>2020-02-29T14:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
-  <lastmod>2020-02-27T21:48:00Z</lastmod>
+  <loc>https://fakahil.github.io/archive.html</loc>
+  <lastmod>2020-02-29T14:46:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/blog/</loc>
+  <lastmod>2020-02-29T14:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/blog/index.htm</loc>
+  <lastmod>2020-02-29T14:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/</loc>
+  <lastmod>2020-02-29T14:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/index.htm</loc>
+  <lastmod>2020-02-29T14:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/galleries/</loc>
+  <lastmod>2020-02-29T14:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/galleries/index.htm</loc>
+  <lastmod>2020-02-29T14:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/listings/</loc>
+  <lastmod>2020-02-29T14:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/listings/index.htm</loc>
+  <lastmod>2020-02-29T14:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/pages/</loc>
+  <lastmod>2020-02-29T14:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/posts/first-post/</loc>
+  <lastmod>2020-02-29T14:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/posts/second-test-post/</loc>
+  <lastmod>2020-02-29T14:12:00Z</lastmod>
  </url>
 </urlset>
