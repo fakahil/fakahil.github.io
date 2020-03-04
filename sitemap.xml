@@ -7,94 +7,50 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://fakahil.github.io/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/2020/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/2020/index.html</loc>
-  <lastmod>2020-03-01T13:55:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/about-me/index.html</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
+  <lastmod>2020-03-04T16:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/archive.html</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
+  <lastmod>2020-03-04T16:06:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/blog/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/blog/index.html</loc>
-  <lastmod>2020-02-29T14:49:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/academia/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/categories/academia/index.html</loc>
-  <lastmod>2020-03-01T13:55:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/categories/index.html</loc>
-  <lastmod>2020-03-01T13:55:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/phd/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/categories/phd/index.html</loc>
-  <lastmod>2020-03-01T13:55:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/research/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/categories/research/index.html</loc>
-  <lastmod>2020-03-01T13:55:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/galleries/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/galleries/index.html</loc>
-  <lastmod>2020-02-29T16:52:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/index.html</loc>
-  <lastmod>2020-03-01T13:55:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/listings/</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/listings/index.html</loc>
-  <lastmod>2020-02-29T16:52:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/pages/about-me/index.html</loc>
-  <lastmod>2020-02-29T16:52:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/pages/index.html</loc>
-  <lastmod>2020-02-29T16:52:00Z</lastmod>
+  <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/how-to-phd/index.html</loc>
-  <lastmod>2020-03-04T16:02:00Z</lastmod>
+  <lastmod>2020-03-04T16:06:00Z</lastmod>
  </url>
 </urlset>
