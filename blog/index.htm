@@ -2,8 +2,9 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="description" content="This is a demo site for Nikola.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>galleries | Fatima's blog</title>
+<title>Fatima's blog</title>
 <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/html4css1.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/nikola_rst.css" rel="stylesheet" type="text/css">
@@ -13,16 +14,8 @@
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
-<link rel="canonical" href="https://fakahil.github.io/galleries/">
-<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
-<style type="text/css">
-    .image-block {
-        display: inline-block;
-    }
-    .flowr_row {
-        width: 100%;
-    }
-    </style>
+<link rel="canonical" href="https://fakahil.github.io/blog/">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -53,12 +46,6 @@
 <a href="../categories/">Tags</a>
                 </li>
 <li>
-<a href="../rss.xml">RSS feed</a>
-                </li>
-<li>
-<a href="../blog/index.html">Blog</a>
-                </li>
-<li>
 <a href="../about-me/index.html">About me</a>
 
                 
@@ -75,12 +62,38 @@
         <div class="row">
             
             
-    
-<nav class="breadcrumbs"><ul class="breadcrumb">
-<li>galleries</li>
-</ul></nav><h1>galleries</h1>
 
-<div id="gallery_container"></div>
+    
+
+
+    
+<div class="postindex">
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/how-to-phd/index.html" class="u-url">How to PhD</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Fatima Kahil
+            </span></p>
+            <p class="dateline"><a href="../posts/how-to-phd/index.html" rel="bookmark"><time class="published dt-published" datetime="2020-02-29T18:29:51+01:00" title="2020-02-29 18:29">2020-02-29 18:29</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>This is definitely not an easy post to write. Here I am writing it a year after my defense and six months into my postdoc stage. Jumping into a PhD does not come with a manual, and I've learnt (the hard way) that there is no ONE way to do it, it is an art rather than a well defined procedure. However, there are usually a few relevant questions you should be considering before starting a PhD:</p>
+<ul class="simple">
+<li>Do some history reseach: What was/is expected in Academia from a PhD student and what was the origin idea of getting a doctorate?</li>
+<li>Why do you want to get a PhD degree?</li>
+<li>What can a PhD degree do for you for your future career (I think the answer to this question becomes clearer in the late stages of your PhD)</li>
+</ul>
+<p>This post is just an introduction to those who just found this blog and want (or already) to pursue a career in Academia. There will be more elaborate posts on handeling the different parts of a PhD/postdoc research and of an academic life in general. I should note here that this is my personal experience and you might or might not find it useful to follow the same mentality and/or practice. But there are always shared experiences and shared way of handeling them.</p>
+</div>
+    </div>
+    </article>
+</div>
+
+
+
+
+
+
 
         </div>
         <!--End of body content-->
@@ -96,43 +109,6 @@
             <script src="../assets/js/jquery.min.js"></script><script src="../assets/js/bootstrap.min.js"></script><script src="../assets/js/moment-with-locales.min.js"></script><script src="../assets/js/fancydates.js"></script><script src="../assets/js/jquery.colorbox-min.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates --><script src="../assets/js/flowr.plugin.js"></script><script>
-jsonContent = [];
-$("#gallery_container").flowr({
-        data : jsonContent,
-        height : 180*.6,
-        padding: 5,
-        rows: -1,
-        render : function(params) {
-            // Just return a div, string or a dom object, anything works fine
-            img = $("<img />").attr({
-                'src': params.itemData.url_thumb,
-                'width' : params.width,
-                'height' : params.height
-            }).css('max-width', '100%');
-            link = $( "<a></a>").attr({
-                'href': params.itemData.url,
-                'class': 'image-reference'
-            });
-            div = $("<div />").addClass('image-block').attr({
-                'title': params.itemData.title,
-                'data-toggle': "tooltip",
-            });
-            link.append(img);
-            div.append(link);
-            div.hover(div.tooltip());
-            return div;
-        },
-        itemWidth : function(data) { return data.size.w; },
-        itemHeight : function(data) { return data.size.h; },
-        complete : function(params) {
-            if( jsonContent.length > params.renderedItems ) {
-                nextRenderList = jsonContent.slice( params.renderedItems );
-            }
-        }
-    });
-$("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
-$('a.image-reference[href="'+window.location.hash.substring(1,1000)+'"]').click();
-</script>
+    </script><!-- end fancy dates -->
 </body>
 </html>
