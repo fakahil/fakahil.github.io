@@ -3,13 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>galleries | Fatima's blog</title>
+<title>galleries | Fatima Kahil</title>
 <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/html4css1.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/nikola_rst.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
 <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
@@ -40,7 +42,7 @@
             </button>
             <a class="navbar-brand" href="https://fakahil.github.io/">
 
-                <span id="blog-title">Fatima's blog</span>
+                <span id="blog-title">Fatima Kahil</span>
             </a>
         </div>
 <!-- /.navbar-header -->
@@ -59,7 +61,10 @@
 <a href="../journal/">Journal</a>
                 </li>
 <li>
-<a href="../about-me/">About me</a>
+<a href="../science/">Coding</a>
+                </li>
+<li>
+<a href="../about-me/">Contact</a>
 
                 
             </li>
@@ -81,6 +86,12 @@
 </ul></nav><h1>galleries</h1>
 
 <div id="gallery_container"></div>
+<noscript>
+<ul class="thumbnails"><li>
+<a href="galaxy.jpg" class="thumbnail image-reference" title="Galaxy">
+            <img src="galaxy.thumbnail.jpg" alt="Galaxy"></a>
+</li></ul>
+</noscript>
 
         </div>
         <!--End of body content-->
@@ -97,7 +108,7 @@
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script src="../assets/js/flowr.plugin.js"></script><script>
-jsonContent = [];
+jsonContent = [{"size": {"h": 112, "w": 180}, "title": "Galaxy", "url": "galaxy.jpg", "url_thumb": "galaxy.thumbnail.jpg"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 180*.6,
