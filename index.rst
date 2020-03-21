@@ -9,11 +9,11 @@
 
 
 
-I am a Postdoctoral Researcher at `Max Planck Institute for Solar System Research <https://www.mps.mpg.de>`_.
+I am a Postdoctoral Researcher at `Max Planck Institute for Solar System Research <https://www.mps.mpg.de>`_. My professional field of research is Solar Physics. I blog here about different issues concerning `professional life and work <https://fakahil.github.io/blog/>`_ , `society <https://fakahil.github.io/journal/>`_ and `some coding projects <https://fakahil.github.io/science/>`_ I find useful for others to check (apologies if they are a mess but they will be improved over time).
 
 See also:
 
 
 |    `Linkedin <https://www.linkedin.com/in/fatima-kahil/>`_
 |    `GitHub <https://github.com/fakahil/>`_
-|    `CV <https://github.com/fakahil/>`_
+

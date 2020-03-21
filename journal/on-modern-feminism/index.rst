@@ -6,14 +6,13 @@
 .. link: 
 .. description: 
 .. type: text
-.. status: private
+.. status: draft
 
 
-White mainstream Feminism (I am cringing upon calling it Feminism) is the ultimate bullshit I have ever seen. "Feminists" calling themselves political activists, marching for the rights of legalizing prostitution (or Sex work as they like to call it). When did this become an act of Feminism?? How does this in anyway protect women from Exploitation? 
+White mainstream Feminism (I am cringing upon calling it Feminism) is the ultimate bullshit I have ever seen in Europe. "Feminists" calling themselves political activists, marching for the rights of legalizing prostitution (or Sex work as they like to call it). When did this become an act of Feminism?? How does this in anyway protect women from Exploitation? 
 
-I have attended political gatherings for the left wing here in Germany in different cities, met lots of them, friended them, hell even dated some and got close to them, and I have noticed how being a Feminist or being a queer is just a trend among other trends (veganism or minimalism for example). People here are bored, they want to break out of the golden cage and convince the world they also have political problems so they end up twisting all the political issues and molding them into their perfect utopian world view where everything is already ok, and everyone is equal. Women here are not as oppressed as in the middle east for example, so women safe places are not exclusively for women, even men are welcome in the name of equality!! and of course all the men who identify as women (Trans-women). 
+I have attended political gatherings for the left wing here in Germany in different cities, met lots of them, friended them, and got close to them. I have noticed how being a Feminist is just a trend among others (Veganism or Minimalism for example). People here are bored, they want to break out of the golden cage and convince the world they also have political problems so they end up twisting all the political issues and molding them into their perfect Utopian world view where everything is already OK, and everyone is equal. Women here are not as oppressed as in the middle east for example, so women safe places are not exclusively for women, even men are welcome in the name of equality!! They do not understand that the patriarchy is based on the idea of males intruding private spaces of women, and in any fight against a system, no exceptions are allowed. 
 
-So coming from a culture where being a woman is enough to be discriminated against and where the problem is my biology I found it hard to accept the left wing and their principles. I found it hard to participate in their feminist gatherings and celebrations. I felt like a fraud.
 
 
 
