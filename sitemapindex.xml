@@ -10,6 +10,18 @@
   <lastmod>2020-03-21T16:11:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://fakahil.github.io/categories/expat.xml</loc>
+  <lastmod>2020-03-22T14:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://fakahil.github.io/categories/focus.xml</loc>
+  <lastmod>2020-03-22T14:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://fakahil.github.io/categories/german.xml</loc>
+  <lastmod>2020-03-22T14:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://fakahil.github.io/categories/phd.xml</loc>
   <lastmod>2020-03-21T16:11:00Z</lastmod>
  </sitemap>
@@ -18,15 +30,19 @@
   <lastmod>2020-03-21T16:11:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://fakahil.github.io/categories/work.xml</loc>
+  <lastmod>2020-03-22T14:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://fakahil.github.io/galleries/rss.xml</loc>
   <lastmod>2020-03-21T14:17:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/rss.xml</loc>
-  <lastmod>2020-03-21T16:18:00Z</lastmod>
+  <lastmod>2020-03-22T15:11:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/sitemap.xml</loc>
-  <lastmod>2020-03-21T16:27:00Z</lastmod>
+  <lastmod>2020-03-22T15:16:00Z</lastmod>
  </sitemap>
 </sitemapindex>

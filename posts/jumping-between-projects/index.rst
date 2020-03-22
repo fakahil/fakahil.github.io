@@ -10,7 +10,7 @@
 
 Personally, everything in life is fine as long as my work is going on track, meaning if I am getting the wanted result from my current task. That is why when things don't go the way I expect in one project, I get busy with another mental task. 
 
-Our minds need constant change, I cannot be focused on one task for more than one week. That is why I am writing this blog actually. This is how I like to distract myself from work: learning a programming language, a new computing skill. For me, the thrill of learning something new and applying it myself is a major help to proceed with stuck ideas in my mind. 
+Our minds need constant change, I cannot be focused on one task for more than one week. That is why I am writing this blog actually and not using a dynamic typical website to do so, because there is no effort made into using such websites. This is how I like to distract myself from work: learning a programming language or a new computing skill. For me, the thrill of learning something new and applying it myself is a major help to proceed with stuck ideas in my mind. Of course I am focusing here on the mental side of the problem, getting fit and active helps for sure.
 
-I used to feel guilty whenever perform a non-work related task, thinking that I should be reading a paper instead, but everything you do and learn will eventually help you with your professional project, if not, it will get your mind off your task, refresh it so you could get back with a new perspective. It is good sometimes to take some distance (not only in human relationships;) 
+I used to feel guilty whenever I perform a non-work related task, thinking that I should be reading a paper instead, but everything you do and learn will eventually help you with your professional project, if not, it will get your mind off your task, refresh it so you could get back with a new perspective. It is good sometimes to take some distance (not only in human relationships;) 
 

@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/archive.html</loc>
-  <lastmod>2020-03-21T14:17:00Z</lastmod>
+  <lastmod>2020-03-22T13:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/blog/</loc>
@@ -27,11 +27,23 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/</loc>
-  <lastmod>2020-03-04T16:03:00Z</lastmod>
+  <lastmod>2020-03-22T14:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/academia/</loc>
   <lastmod>2020-03-04T16:03:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/expat/</loc>
+  <lastmod>2020-03-22T14:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/focus/</loc>
+  <lastmod>2020-03-22T14:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/german/</loc>
+  <lastmod>2020-03-22T14:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/phd/</loc>
@@ -42,20 +54,24 @@
   <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
+  <loc>https://fakahil.github.io/categories/work/</loc>
+  <lastmod>2020-03-22T14:27:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://fakahil.github.io/galleries/</loc>
   <lastmod>2020-03-09T11:20:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/index.html</loc>
-  <lastmod>2020-03-21T16:22:00Z</lastmod>
+  <lastmod>2020-03-22T15:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/</loc>
-  <lastmod>2020-03-21T14:21:00Z</lastmod>
+  <lastmod>2020-03-22T14:00:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/first-world-bullshit/index.html</loc>
-  <lastmod>2020-03-21T16:12:00Z</lastmod>
+  <lastmod>2020-03-22T15:15:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/on-modern-feminism/index.html</loc>
@@ -67,7 +83,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/how-to-do-research/index.html</loc>
-  <lastmod>2020-03-21T16:11:00Z</lastmod>
+  <lastmod>2020-03-22T15:11:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/how-to-phd/index.html</loc>
@@ -75,7 +91,11 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/jumping-between-projects/index.html</loc>
-  <lastmod>2020-03-21T16:18:00Z</lastmod>
+  <lastmod>2020-03-22T15:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/posts/on-learning-german-p1/index.html</loc>
+  <lastmod>2020-03-22T14:54:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/science/</loc>
@@ -86,24 +106,8 @@
   <lastmod>2020-03-21T14:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/science/beer_law/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/science/cleaning_data/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/science/color_bars/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
- </url>
- <url>
   <loc>https://fakahil.github.io/science/color_bars_python/index.html</loc>
   <lastmod>2020-03-21T14:50:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/science/curve_fitting/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/science/curve_fitting_bounds/index.html</loc>
@@ -122,19 +126,11 @@
   <lastmod>2020-03-21T14:50:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/science/feature_detection/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
- </url>
- <url>
   <loc>https://fakahil.github.io/science/feature_detection_skimage/index.html</loc>
   <lastmod>2020-03-21T14:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/science/fourier_transform_2d/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/science/gaussian_2d_fitting/index.html</loc>
   <lastmod>2020-03-21T14:39:00Z</lastmod>
  </url>
  <url>
@@ -166,20 +162,12 @@
   <lastmod>2020-03-21T14:50:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/science/pairs_fits/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
- </url>
- <url>
   <loc>https://fakahil.github.io/science/pixel_resampling/index.html</loc>
   <lastmod>2020-03-21T14:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/science/pixel_resampling_ft/index.html</loc>
   <lastmod>2020-03-21T14:50:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/science/resampling/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/science/restoration/index.html</loc>
@@ -190,16 +178,8 @@
   <lastmod>2020-03-21T14:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/science/sampling_ft/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
- </url>
- <url>
   <loc>https://fakahil.github.io/science/scatterplots_binning/index.html</loc>
   <lastmod>2020-03-21T14:50:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/science/subplots/index.html</loc>
-  <lastmod>2020-03-21T14:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/science/time_difference/index.html</loc>
