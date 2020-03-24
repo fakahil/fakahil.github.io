@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/archive.html</loc>
-  <lastmod>2020-03-22T13:38:00Z</lastmod>
+  <lastmod>2020-03-24T12:26:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/blog/</loc>
@@ -27,11 +27,19 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/</loc>
-  <lastmod>2020-03-22T14:27:00Z</lastmod>
+  <lastmod>2020-03-24T12:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/academia/</loc>
   <lastmod>2020-03-04T16:03:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/astronomy/</loc>
+  <lastmod>2020-03-24T12:31:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/career/</loc>
+  <lastmod>2020-03-24T12:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/expat/</loc>
@@ -44,6 +52,10 @@
  <url>
   <loc>https://fakahil.github.io/categories/german/</loc>
   <lastmod>2020-03-22T14:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/passion/</loc>
+  <lastmod>2020-03-24T12:31:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/phd/</loc>
@@ -67,15 +79,23 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/</loc>
-  <lastmod>2020-03-22T14:00:00Z</lastmod>
+  <lastmod>2020-03-24T10:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/first-world-bullshit/index.html</loc>
   <lastmod>2020-03-22T15:15:00Z</lastmod>
  </url>
  <url>
+  <loc>https://fakahil.github.io/journal/on-breaking-bad/index.html</loc>
+  <lastmod>2020-03-24T10:55:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://fakahil.github.io/journal/on-modern-feminism/index.html</loc>
   <lastmod>2020-03-21T16:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/journal/on-polished-racism/index.html</loc>
+  <lastmod>2020-03-24T10:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/listings/</loc>
@@ -95,7 +115,11 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/on-learning-german-p1/index.html</loc>
-  <lastmod>2020-03-22T14:54:00Z</lastmod>
+  <lastmod>2020-03-24T12:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/posts/the-illusion-of-passion/index.html</loc>
+  <lastmod>2020-03-24T12:34:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/science/</loc>

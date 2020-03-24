@@ -1,5 +1,5 @@
-.. title: First world bullshit 
-.. slug: first-world-bullshit
+.. title: On Polished Racism 
+.. slug: on-polished-racism
 .. date: 2020-03-07 19:56:43 UTC+01:00
 .. tags: feminism, white, culture, left
 .. category: 
