@@ -87,10 +87,24 @@
 
 <div id="gallery_container"></div>
 <noscript>
-<ul class="thumbnails"><li>
+<ul class="thumbnails">
+<li>
 <a href="galaxy.jpg" class="thumbnail image-reference" title="Galaxy">
             <img src="galaxy.thumbnail.jpg" alt="Galaxy"></a>
-</li></ul>
+        </li>
+<li>
+<a href="Hikikomori1.jpg" class="thumbnail image-reference" title="Hikikomori1">
+            <img src="Hikikomori1.thumbnail.jpg" alt="Hikikomori1"></a>
+        </li>
+<li>
+<a href="hiko3.jpg" class="thumbnail image-reference" title="Hiko3">
+            <img src="hiko3.thumbnail.jpg" alt="Hiko3"></a>
+        </li>
+<li>
+<a href="hikikomori2.jpg" class="thumbnail image-reference" title="Hikikomori2">
+            <img src="hikikomori2.thumbnail.jpg" alt="Hikikomori2"></a>
+</li>
+</ul>
 </noscript>
 
         </div>
@@ -108,7 +122,7 @@
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script src="../assets/js/flowr.plugin.js"></script><script>
-jsonContent = [{"size": {"h": 112, "w": 180}, "title": "Galaxy", "url": "galaxy.jpg", "url_thumb": "galaxy.thumbnail.jpg"}];
+jsonContent = [{"size": {"h": 112, "w": 180}, "title": "Galaxy", "url": "galaxy.jpg", "url_thumb": "galaxy.thumbnail.jpg"}, {"size": {"h": 108, "w": 180}, "title": "Hikikomori1", "url": "Hikikomori1.jpg", "url_thumb": "Hikikomori1.thumbnail.jpg"}, {"size": {"h": 101, "w": 180}, "title": "Hiko3", "url": "hiko3.jpg", "url_thumb": "hiko3.thumbnail.jpg"}, {"size": {"h": 101, "w": 180}, "title": "Hikikomori2", "url": "hikikomori2.jpg", "url_thumb": "hikikomori2.thumbnail.jpg"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 180*.6,
