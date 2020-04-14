@@ -15,7 +15,7 @@
 شتاء غوتنغن، 2020
 
 .. image:: /galleries/gottingen.png
-   :height: 150
+   :height: 125
    :width: 200
    :scale: 250
 
