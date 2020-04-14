@@ -17,6 +17,6 @@
 .. image:: /galleries/gottingen.png
    :height: 150
    :width: 200
-   :scale: 300
+   :scale: 250
 
 

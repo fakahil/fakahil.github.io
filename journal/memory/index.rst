@@ -16,5 +16,5 @@
 .. image:: /galleries/florence.jpg
    :height: 120
    :width: 200
-   :scale: 300
+   :scale: 270
 
