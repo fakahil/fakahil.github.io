@@ -11,7 +11,7 @@
 
 I am a Postdoctoral Researcher at `Max Planck Institute for Solar System Research <https://www.mps.mpg.de>`_. My professional field of research is Solar Physics. My mind is constantly jumping from one thought to another, so I decided to gather them here.
 
-I blog about different issues concerning `professional life and work <https://fakahil.github.io/blog/>`_ , `society <https://fakahil.github.io/journal/>`_ and `some coding projects <https://fakahil.github.io/science/>`_ I find useful for others to check (they are a mess but they will be improved over time).
+I blog about different issues concerning `professional life and work <https://fakahil.github.io/blog/>`_ , `society <https://fakahil.github.io/journal/>`_ and `some coding projects (mainly in Python) <https://fakahil.github.io/science/>`_ I find useful for others to check (image and data processing and statistical analysis).
 
 See also:
 
