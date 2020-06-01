@@ -29,5 +29,6 @@ Finally, stick to ONE programming language and always work on improving it. Bein
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-.. [*] Here is a `Python package <https://getnikola.com/getting-started.html>`_ which allows you to create a static blog. You would have to do some effort to change the configuration file and make it a website.
 .. [*] Here is an `useful website <https://www.freecodecamp.org/>`_ that I am using to learn web development.
+
+.. [*] Here is a `Python package <https://getnikola.com/getting-started.html>`_ which allows you to create a static blog. You would have to do some effort to change the configuration file and make it a website.
