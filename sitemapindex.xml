@@ -7,15 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://fakahil.github.io/categories/academia.xml</loc>
-  <lastmod>2020-05-31T11:54:00Z</lastmod>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/categories/astronomy.xml</loc>
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://fakahil.github.io/categories/bachelor.xml</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://fakahil.github.io/categories/career.xml</loc>
-  <lastmod>2020-05-31T11:54:00Z</lastmod>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/categories/expat.xml</loc>
@@ -30,16 +34,36 @@
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://fakahil.github.io/categories/guidance.xml</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://fakahil.github.io/categories/industry.xml</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://fakahil.github.io/categories/interests.xml</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://fakahil.github.io/categories/masters.xml</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://fakahil.github.io/categories/passion.xml</loc>
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/categories/phd.xml</loc>
-  <lastmod>2020-05-31T11:54:00Z</lastmod>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/categories/research.xml</loc>
   <lastmod>2020-05-31T11:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://fakahil.github.io/categories/society.xml</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/categories/work.xml</loc>
@@ -51,10 +75,10 @@
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/rss.xml</loc>
-  <lastmod>2020-06-01T20:03:00Z</lastmod>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/sitemap.xml</loc>
-  <lastmod>2020-06-01T20:03:00Z</lastmod>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </sitemap>
 </sitemapindex>

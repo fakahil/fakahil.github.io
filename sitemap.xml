@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/archive.html</loc>
-  <lastmod>2020-05-31T11:54:00Z</lastmod>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/blog/</loc>
@@ -47,7 +47,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/</loc>
-  <lastmod>2020-03-24T12:31:00Z</lastmod>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/academia/</loc>
@@ -56,6 +56,10 @@
  <url>
   <loc>https://fakahil.github.io/categories/astronomy/</loc>
   <lastmod>2020-03-24T12:31:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/bachelor/</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/career/</loc>
@@ -74,6 +78,22 @@
   <lastmod>2020-03-22T14:27:00Z</lastmod>
  </url>
  <url>
+  <loc>https://fakahil.github.io/categories/guidance/</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/industry/</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/interests/</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/masters/</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://fakahil.github.io/categories/passion/</loc>
   <lastmod>2020-03-24T12:31:00Z</lastmod>
  </url>
@@ -84,6 +104,10 @@
  <url>
   <loc>https://fakahil.github.io/categories/research/</loc>
   <lastmod>2020-03-04T16:03:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/categories/society/</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/work/</loc>
@@ -99,7 +123,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/</loc>
-  <lastmod>2020-05-31T11:53:00Z</lastmod>
+  <lastmod>2020-06-11T01:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/here-and-there/index.html</loc>
@@ -110,8 +134,8 @@
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/journal/nostalgia/index.html</loc>
-  <lastmod>2020-05-31T11:54:00Z</lastmod>
+  <loc>https://fakahil.github.io/journal/hypocrisy/index.html</loc>
+  <lastmod>2020-06-11T01:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/on-breaking-bad/index.html</loc>
@@ -147,7 +171,11 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/make-it-work/index.html</loc>
-  <lastmod>2020-06-01T20:03:00Z</lastmod>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/posts/on-choosing-your-career/index.html</loc>
+  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/on-learning-german-p1/index.html</loc>
