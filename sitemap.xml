@@ -7,11 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://fakahil.github.io/</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/2012/</loc>
-  <lastmod>2020-08-31T17:19:00Z</lastmod>
+  <lastmod>2020-09-02T22:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/2020/</loc>
@@ -19,7 +15,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/about-me/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/arabic/</loc>
@@ -27,23 +23,23 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/arabic/books/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/arabic/certainty/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/arabic/memory/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/arabic/no-country/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/archive.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/blog/</loc>
@@ -51,7 +47,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
+  <lastmod>2020-09-02T22:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/academia/</loc>
@@ -60,10 +56,6 @@
  <url>
   <loc>https://fakahil.github.io/categories/astronomy/</loc>
   <lastmod>2020-03-24T12:31:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/categories/bachelor/</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/categories/career/</loc>
@@ -82,22 +74,6 @@
   <lastmod>2020-03-22T14:27:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/categories/guidance/</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/categories/industry/</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/categories/interests/</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/categories/masters/</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </url>
- <url>
   <loc>https://fakahil.github.io/categories/passion/</loc>
   <lastmod>2020-03-24T12:31:00Z</lastmod>
  </url>
@@ -110,10 +86,6 @@
   <lastmod>2020-03-04T16:03:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/categories/society/</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </url>
- <url>
   <loc>https://fakahil.github.io/categories/work/</loc>
   <lastmod>2020-03-22T14:27:00Z</lastmod>
  </url>
@@ -123,115 +95,107 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/confidence-intervals-in-model-fitting/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/constrained-model-fitting/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/error-estimation-in-model-fitting/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/feature-detection-with-scikit-image/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/find-occurences-in-an-array/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/handeling-of-muram-data/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-adjust-a-colorbar-in-python/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-bin-scatterplots/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-change-pixel-size-of-an-image/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-change-time-format-in-python/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-compute-the-rms-contrast-of-an-image/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-compute-the-time-difference-between-two-data-sets/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-do-model-fitting-in-python/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-fit-a-2d-gaussian/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-open-a-sav-file-in-python/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/coding/how-to-pair-images-with-matching-conditions/index.html</loc>
-  <lastmod>2020-08-31T21:55:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-pair-images-with-matching-header-information/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/how-to-use-fourier-transform-to-resample-an-image/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/image-registration/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/image-restoration/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/make-a-movie-with-python-1/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/make-a-movie-with-python-2/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/model-fitting-and-introducing-bounds/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/monte-carlo-simulations/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/non-parametric-regression/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/replace_character/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/coding/using-fourier-transform-to-enlarge-an-image/index.html</loc>
-  <lastmod>2020-08-31T21:55:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/coding/using-fourier-transform-to-resize-an-image/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/galleries/</loc>
@@ -239,134 +203,90 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:45:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/</loc>
   <lastmod>2020-06-11T01:09:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/journal/here-and-there/index.html</loc>
-  <lastmod>2020-09-02T22:09:00Z</lastmod>
- </url>
- <url>
   <loc>https://fakahil.github.io/journal/hikikomori/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/journal/hypocrisy/index.html</loc>
-  <lastmod>2020-09-02T22:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/journal/on-breaking-bad/index.html</loc>
-  <lastmod>2020-09-02T22:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/journal/on-modern-feminism/index.html</loc>
-  <lastmod>2020-09-02T22:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/journal/on-polished-racism/index.html</loc>
-  <lastmod>2020-09-02T22:09:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/peanuts/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/listings/</loc>
-  <lastmod>2020-03-04T16:03:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/listings/kahil_CV.pdf.html</loc>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/how-to-do-research/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/posts/how-to-make-money/index.html</loc>
-  <lastmod>2020-08-31T17:19:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/how-to-phd/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/jumping-between-projects/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/make-it-work/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/posts/on-choosing-your-career/index.html</loc>
-  <lastmod>2020-09-02T22:09:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/on-learning-german-p1/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/on-learning-german-part-2/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/posts/the-illusion-of-passion/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/</loc>
   <lastmod>2020-09-02T21:54:00Z</lastmod>
  </url>
  <url>
-  <loc>https://fakahil.github.io/solo/confidence-intervals-in-model-fitting/index.html</loc>
-  <lastmod>2020-08-31T21:58:00Z</lastmod>
- </url>
- <url>
   <loc>https://fakahil.github.io/solo/from-wavefront-aberrations-to-point-spread-function-psf-to-modulation-transfer-function-mtf/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-compute-the-exit-pupil-size-of-a-telescope/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-do-phase-correlation-to-estimate-the-geometrical-shifts-between-two-images/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/solo/how-to-phd/index.html</loc>
-  <lastmod>2020-08-31T21:58:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-restore-an-initial-scence-using-deconvolution/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-use-the-circular-grid-calibration-target-to-estimate-the-geometrical-distortion-in-the-image-plane-of-a-telescope/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-use-the-rectangular-grid-to-estimate-the-geometrical-distortion-in-the-image-plane-of-a-telescope/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-use-the-siemens-star-calibration-target-to-obtain-the-mtf-of-an-optical-system/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-use-zernike-coefficients-to-introduce-some-optical-aberrations/index.html</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/sunrise/</loc>
-  <lastmod>2020-08-31T21:52:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/sunrise/how-to-open-a-sav-file-in-python/index.html</loc>
-  <lastmod>2020-08-31T21:53:00Z</lastmod>
- </url>
- <url>
-  <loc>https://fakahil.github.io/sunrise/on-choosing-your-career/index.html</loc>
-  <lastmod>2020-08-31T21:53:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </url>
 </urlset>

@@ -14,10 +14,6 @@
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://fakahil.github.io/categories/bachelor.xml</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://fakahil.github.io/categories/career.xml</loc>
   <lastmod>2020-09-02T22:18:00Z</lastmod>
  </sitemap>
@@ -34,22 +30,6 @@
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://fakahil.github.io/categories/guidance.xml</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://fakahil.github.io/categories/industry.xml</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://fakahil.github.io/categories/interests.xml</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://fakahil.github.io/categories/masters.xml</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://fakahil.github.io/categories/passion.xml</loc>
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </sitemap>
@@ -62,16 +42,12 @@
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://fakahil.github.io/categories/society.xml</loc>
-  <lastmod>2020-08-28T22:38:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://fakahil.github.io/categories/work.xml</loc>
   <lastmod>2020-05-31T11:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/galleries/rss.xml</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:43:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/rss.xml</loc>
@@ -79,6 +55,6 @@
  </sitemap>
  <sitemap>
   <loc>https://fakahil.github.io/sitemap.xml</loc>
-  <lastmod>2020-09-02T22:26:00Z</lastmod>
+  <lastmod>2020-09-02T22:45:00Z</lastmod>
  </sitemap>
 </sitemapindex>
