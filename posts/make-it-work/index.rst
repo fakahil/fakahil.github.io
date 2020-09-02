@@ -7,9 +7,9 @@
 .. description: 
 .. type: text
 
-If you feel that the world is racing at a tremendous speed and one lifetime is not enough to grasp it all and know everything there is, if you are an Astronomy/Astrophysics/Physics PhD holder (or researcher) who cannot handle the sight of their written thesis and want to start a brand new project (and life), a project that ACTUALLY contributes to society somehow, with the skills that you have acquired during your research years (let's be honest those will be mainly shitty programming skills, you might have done some science and high school math but not enough to make you an expert, just a lost soul), then this post is for you.
+If you feel that the world is racing at a tremendous speed and one lifetime is not enough to grasp it all and know everything there is, if you are an Astronomy/Astrophysics/Physics PhD holder (or researcher) who cannot handle the sight of their written thesis and want to start a brand new project (and life), a project that ACTUALLY contributes to society somehow, with the skills that you have acquired during your research years then this post is for you.
 
-I have actually realized that majoring in computer science for example would have been more exciting and more beneficial especially career wise. But well, no regrets. When you work in Astronomy/Astrophysics, which does not make you an ASTRONOMER or an ASTROPHYSICIST by the way (Edwin Hubble is an Astronomer, Stephen Hawking is an Astrophysicist, you are just a junior researcher so easy on the titles buddy), you will have to deal with computing skills, not just writing a code that works and serves your wanted result, but one that is perfect. You need to know how to work with servers for example, or how to speed up your code, or how it could be used by and delivered to others. This "meta" knowledge will serve you in the long run. You will develop a curiosity to how things work in the background. Things like software engineering, data science, data structures, version control, web design, web development, etc.
+When you work in Astronomy/Astrophysics, you will have to deal with computing skills, not just writing a code that works and serves your wanted result, but one that is beautiful. You need to know how to work with servers for example, or how to speed up your code, or how it could be used by and delivered to others. This "meta" knowledge will serve you in the long run. You will develop a curiosity to how things work in the background. Things like software engineering, data science, data structures, version control, web design, web development, etc.
 
 And here is where you get lost, you have no clue where to start: so many terms, so many definitions, so many perquisite information. You have the urge to start from point zero, but that's not a good idea. 
 
@@ -19,13 +19,13 @@ Third, don't spend too much time on a specific topic. For example when I was cur
 
 Dig into the details only when you have a specific project in mind. Maybe you would like to write a blog or build a website or design a game or a mobile application. Then, you have to specify the wanted functionalities, maybe you want to rant about random stuff in your mind, maybe you want to blog about your programming experience or to make available some programming projects that you have done.
 
-*Side note: Making your codes available to others and blogging about your work is good for you. It helps you understand things better, and you find yourself under constant pressure to improve the way you code (I am not saying I am the Guru of coding, I am just doing this shit out of boredom) unlike publishing scientific papers where God knows which tools you've used and if you ACTUALLY understood those tools to get a result that pleases your supervisor (wink wink).*
+*Side note: Making your codes available to others and blogging about your work is good for you. It helps you understand things better, and you find yourself under constant pressure to improve the way you code.*
 
 In my case I wanted a website that does all of these things [*]_. Once you have a project in mind, seek out for the appropriate tools, you might not need to write a website from scratch, there are a lot of python packages for example which allow you to write static or dynamic web pages, you will only have to edit the configuration file, and understand only what you need to know in order to make it work.
 
 When you make it work, take some steps back and try to improve your project, you will have enough knowledge by then to proceed to the next skill. 
 
-Finally, stick to ONE programming language and always work on improving it. Being an Expert in one language (by Expert I mean knowing exactly where to look in Stack Overflow) is better than having a shallow knowledge in many languages.
+Finally, stick to ONE programming language and always work on improving it. Being an Expert in one language is better than having a shallow knowledge in many languages.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 

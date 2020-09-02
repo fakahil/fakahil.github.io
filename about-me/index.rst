@@ -9,5 +9,7 @@
 
 
 
-Email: fakahil92@gmail.com
+Feel free to send me an email if you have questions about any of the contents of this website: fakahil@gmail.com
+
+
 
