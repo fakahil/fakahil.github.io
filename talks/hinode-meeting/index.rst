@@ -7,6 +7,12 @@
 .. description: 
 .. type: text
 
+Date: 10-13 September 2018
+
+Location: Granada, Spain
+
+
 Link to `my poster <https://fakahil.github.io/listings/poster_hinode12.pdf>`_
 
 
+The official `meeting website <https://granada-en.congresoseci.com/hinode12>`_
