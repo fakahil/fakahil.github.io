@@ -29,6 +29,8 @@ My publications can be found here
 
 - `Intensity contrast of solar plage as a function of magnetic flux at high spatial resolution <https://www.aanda.org/articles/aa/abs/2019/01/aa33722-18/aa33722-18.html>`_
 
+- `Masters thesis <https://fakahil.github.io/listings/masters_thesis.pdf>`_
+
 I divide my PhD project into mini projects which I blog about in `Sunrise <https://fakahil.github.io/sunrise/>`_ . 
 
 All the calibration procedures which I have written for the PHI instrument are found in the `Solar Orbiter <https://fakahil.github.io/solo/>`_ page. This includes the following topics:

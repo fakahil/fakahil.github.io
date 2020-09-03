@@ -1,4 +1,4 @@
-.. title: SPW8
+.. title: Solar Polarization Workshop 8
 .. slug: spw8
 .. date: 2020-02-29 18:29:51 UTC+01:00
 .. tags: 

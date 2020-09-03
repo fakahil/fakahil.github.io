@@ -1,4 +1,4 @@
-.. title:AG Meeting
+.. title:The Astronomische Gesellschaft Meeting
 .. slug: ag
 .. date: 2020-02-29 18:29:51 UTC+01:00
 .. tags: 

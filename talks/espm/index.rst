@@ -1,4 +1,4 @@
-.. title: ESPM
+.. title: The 15th European Solar Physics Meeting
 .. slug: espm
 
 .. date: 2020-02-29 18:29:51 UTC+01:00

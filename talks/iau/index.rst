@@ -1,4 +1,4 @@
-.. title: IAU
+.. title: The XXXth General Assembly of the International Astronomical Union
 .. slug: iau
 .. date: 2020-02-29 18:29:51 UTC+01:00
 .. tags: 

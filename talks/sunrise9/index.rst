@@ -1,4 +1,4 @@
-.. title: Sunrise 9
+.. title: The 9th Sunrise Meeting
 .. slug: sunrise9
 .. date: 2020-02-29 18:29:51 UTC+01:00
 .. tags: 
