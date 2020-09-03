@@ -45,5 +45,5 @@ See also my professional profiles:
 
 |    `Linkedin <https://www.linkedin.com/in/fatima-kahil/>`_
 |    `GitHub <https://github.com/fakahil/>`_
-|    `My CV <https://fakahil.github.io/listings/kahil_CV.pdf>`_
+|    `My CV <https://fakahil.github.io/listings/kahil_CV2.pdf>`_
 
