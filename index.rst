@@ -42,7 +42,7 @@ Functions and procedures written in Python that are useful for scientific resear
 
 My procedures and work on MURAM simulations can be found in `MURAM simulations <https://fakahil.github.io/muram/>`_.
 
-A list of my teaching and outreach activities can be found `here <https://fakahil.github.io/teaching/>`_. 
+I included a list of my `teaching and outreach activities <https://fakahil.github.io/teaching/>`_. 
 
 I blog about professional life and career in `my blog <https://fakahil.github.io/blog/>`_. I also have a  `journal <https://fakahil.github.io/journal/>`_ of my opinions and thoughts on different social and life matters.
 
