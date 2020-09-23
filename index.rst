@@ -33,12 +33,12 @@ My publications can be found here
 
 - `Masters thesis <https://fakahil.github.io/listings/masters_thesis.pdf>`_
 
-I divide my PhD project into mini projects which I blog about in `Sunrise <https://fakahil.github.io/sunrise/>`_ . There one can find useful codes to analyse the Sunrise data with their current format.
+I divide my PhD project into mini projects which I blog about in `Sunrise <https://fakahil.github.io/sunrise/>`_ . In there one can find useful codes to analyse the Sunrise data with their current format.
 
-All the calibration procedures which I have written for the PHI instrument are found in the `Solar Orbiter <https://fakahil.github.io/solo/>`_ page. 
+Some of the calibration procedures which I have written for the PHI instrument can be found in the `Solar Orbiter <https://fakahil.github.io/solo/>`_ page. 
 
 
-Functions and procedures written in Python that are useful for scientific research and general data science can be found `here <https://fakahil.github.io/science/>`_ 
+Functions and procedures written in Python that are useful for scientific research and general data science can be found `here <https://fakahil.github.io/coding/>`_ 
 
 My procedures and work on MURAM simulations can be found in `MURAM simulations <https://fakahil.github.io/muram/>`_.
 
