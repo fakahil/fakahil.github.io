@@ -15,11 +15,13 @@
 
 I am a Postdoctoral Researcher at `Max Planck Institute for Solar System Research <https://www.mps.mpg.de>`_. 
 
-My research focuses on calibrating and analysing solar data delivered by remote-sensing instrumentation.
+My current research focuses on calibrating and analysing solar data delivered by remote-sensing instrumentation.
 
-As a postdoc, I am a member of the `PHI/solo calibration team <https://www.mps.mpg.de/sonnenforschung/solar-orbiter-phi>`_. I am carrying out detailed analyses of specific instrumental properties of the PHI instrument and writing calibration procedures to correct for the geometrical distortion, point spread function and straylight.
+As a postdoc, I am a member of the `PHI/solo calibration team <https://www.mps.mpg.de/sonnenforschung/solar-orbiter-phi>`_. I am carrying out detailed analysis of specific instrumental properties of the PHI instrument and writing calibration procedures to correct for the geometrical distortion, point spread function and straylight.
 
 As a doctoral student, I worked on `Sunrise data <https://www.mps.mpg.de/solar-physics/sunrise>`_. I used radiative transfer modeling to invert spectropolarimetric data and derive the magnetic field maps and other useful physical quantities. The aim of my thesis project was to investigate the relationship between the magnetic field and brightness contrast of small-scale magnetic elements in the quiet Sun and active region plages. I also worked on characterising the stray light properties of the sunrise telescope.
+
+In addition, I am extending the study of small-scale magnetic elements brightness to 3D radiative Magnetohydrodynamics simulations using the MURAM code. With deeper boxes which produce dark pores and surrounding plages elements, one can carry out a one-to-one comparison with the Sunrise 2 observations.
 
 My publications can be found here
 
@@ -31,21 +33,24 @@ My publications can be found here
 
 - `Masters thesis <https://fakahil.github.io/listings/masters_thesis.pdf>`_
 
-I divide my PhD project into mini projects which I blog about in `Sunrise <https://fakahil.github.io/sunrise/>`_ . 
+I divide my PhD project into mini projects which I blog about in `Sunrise <https://fakahil.github.io/sunrise/>`_ . There one can find useful codes to analyse the Sunrise data with their current format.
 
-All the calibration procedures which I have written for the PHI instrument are found in the `Solar Orbiter <https://fakahil.github.io/solo/>`_ page. This includes the following topics:
+All the calibration procedures which I have written for the PHI instrument are found in the `Solar Orbiter <https://fakahil.github.io/solo/>`_ page. 
 
 
 Functions and procedures written in Python that are useful for scientific research and general data science can be found `here <https://fakahil.github.io/science/>`_ 
 
 My procedures and work on MURAM simulations can be found in `MURAM simulations <https://fakahil.github.io/muram/>`_.
 
+A list of my teaching and outreach activities can be found `here <https://fakahil.github.io/teaching/>`_. 
+
 I blog about professional life and career in `my blog <https://fakahil.github.io/blog/>`_. I also have a  `journal <https://fakahil.github.io/journal/>`_ of my opinions and thoughts on different social and life matters.
 
-See also my professional profiles:
+See also:
 
 
 |    `Linkedin <https://www.linkedin.com/in/fatima-kahil/>`_
 |    `GitHub <https://github.com/fakahil/>`_
 |    `My CV <https://fakahil.github.io/listings/kahil_CV2.pdf>`_
+|    `My twitter account <https://twitter.com/fatima_a_kahil>`_
 
