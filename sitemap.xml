@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://fakahil.github.io/</loc>
-  <lastmod>2020-09-23T21:11:00Z</lastmod>
+  <lastmod>2020-09-24T13:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/2020/</loc>
@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/archive.html</loc>
-  <lastmod>2020-09-23T15:45:00Z</lastmod>
+  <lastmod>2020-09-24T12:12:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/blog/</loc>
@@ -203,7 +203,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/index.html</loc>
-  <lastmod>2020-09-24T11:07:00Z</lastmod>
+  <lastmod>2020-09-24T12:12:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/journal/</loc>
@@ -320,6 +320,46 @@
  <url>
   <loc>https://fakahil.github.io/solo/how-to-use-zernike-coefficients-to-introduce-some-optical-aberrations/index.html</loc>
   <lastmod>2020-09-23T21:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/</loc>
+  <lastmod>2020-09-24T13:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/cog-inv/index.html</loc>
+  <lastmod>2020-09-24T13:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/cog-l4/index.html</loc>
+  <lastmod>2020-09-24T13:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/cog-l8/index.html</loc>
+  <lastmod>2020-09-24T13:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/handeling-of-muram-data/index.html</loc>
+  <lastmod>2020-09-24T13:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/imax-imax/index.html</loc>
+  <lastmod>2020-09-24T13:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/npr/index.html</loc>
+  <lastmod>2020-09-24T13:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/spinor/index.html</loc>
+  <lastmod>2020-09-24T13:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/stokes-2009/index.html</loc>
+  <lastmod>2020-09-24T13:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/sunrise/stokes-2013/index.html</loc>
+  <lastmod>2020-09-24T13:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/talks/</loc>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " vocab="http://ogp.me/ns" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Visualizing IMAX images in pairs | Fatima Kahil</title>
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/poole.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/lanyon.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="https://fakahil.github.io/sunrise/imax-imax/index.html">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Fatima Kahil">
+<meta property="og:site_name" content="Fatima Kahil">
+<meta property="og:title" content="Visualizing IMAX images in pairs">
+<meta property="og:url" content="https://fakahil.github.io/sunrise/imax-imax/index.html">
+<meta property="og:description" content="This code shows maps of IMAX continuum and line core intensities
+import pyfits
+import matplotlib.pyplot as plt
+import numpy as np
+import pylab
+from numpy import flipud as fl
+from mpl_toolkits.axes_gri">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-09-16T14:33:40+01:00">
+</head>
+<body>
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+            styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"><!-- Toggleable sidebar --><div class="sidebar" id="sidebar">
+        <div class="sidebar-item">
+            <p>A reserved <a href="https://getnikola.com" target="_blank">Nikola</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> for Jekyll,
+            ported to Nikola by <a href="https://twitter.com/ralsina" target="_blank">@ralsina</a>.</p>
+        </div>
+        
+    <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="../../archive.html">Archive</a>
+        <a class="sidebar-nav-item" href="../../categories/">Tags</a>
+        <a class="sidebar-nav-item" href="../../blog/">Blog</a>
+        <a class="sidebar-nav-item" href="../../journal/">Journal</a>
+        <a class="sidebar-nav-item" href="../../coding/">Coding</a>
+        <a class="sidebar-nav-item" href="../">Sunrise</a>
+        <a class="sidebar-nav-item" href="../../solo/">Solar Orbiter</a>
+        <a class="sidebar-nav-item" href="../../talks/">Talks &amp; Posters</a>
+        <a class="sidebar-nav-item" href="../../teaching/">Teaching &amp; Outreach</a>
+        <a class="sidebar-nav-item" href="../../arabic/">المدونة</a>
+        <a class="sidebar-nav-item" href="../../about-me/">Contact</a>
+    
+    
+    </nav>
+</div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          
+    <h3 id="brand" class="masthead-title">
+      <a href="https://fakahil.github.io/" title="Fatima Kahil" rel="home">Fatima Kahil</a>
+    </h3>
+
+        </div>
+      </div>
+
+      <div class="container content" id="content">
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="post-title p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Visualizing IMAX images in pairs</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Fatima Kahil</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="post-date published dt-published" datetime="2020-09-16T14:33:40+01:00" itemprop="datePublished" title="2020-09-16 14:33">2020-09-16 14:33</time></a></p>
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>This code shows maps of IMAX continuum and line core intensities</p>
+<pre class="code python"><a name="rest_code_cea816ad31e045908d159a9899de009e-1"></a><span class="kn">import</span> <span class="nn">pyfits</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-2"></a><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-3"></a><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-4"></a><span class="kn">import</span> <span class="nn">pylab</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-5"></a><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">flipud</span> <span class="k">as</span> <span class="n">fl</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-6"></a><span class="kn">from</span> <span class="nn">mpl_toolkits.axes_grid1</span> <span class="kn">import</span> <span class="n">make_axes_locatable</span><span class="p">,</span> <span class="n">axes_size</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-7"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-8"></a><span class="n">n</span> <span class="o">=</span> <span class="mi">2</span> <span class="c1">#sigma range</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-9"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-10"></a><span class="n">im1</span> <span class="o">=</span> <span class="n">pyfits</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">'cont_inv_548_001.fits'</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-11"></a><span class="n">B</span> <span class="o">=</span> <span class="n">im1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">data</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-12"></a><span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">flipud</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-13"></a><span class="c1">#B=np.abs(B)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-14"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-15"></a><span class="n">im4</span> <span class="o">=</span> <span class="n">pyfits</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">'LC_inv_shift_001.fits'</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-16"></a><span class="n">cont</span> <span class="o">=</span> <span class="n">im4</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">data</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-17"></a><span class="n">cont</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">flipud</span><span class="p">(</span><span class="n">cont</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-18"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-19"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-20"></a><span class="n">fig</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">8</span><span class="p">),</span><span class="n">facecolor</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-21"></a><span class="n">aspect</span> <span class="o">=</span> <span class="mi">5</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-22"></a><span class="n">pad_fraction</span> <span class="o">=</span> <span class="mf">0.5</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-23"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-24"></a><span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-25"></a><span class="n">im</span><span class="o">=</span><span class="n">ax</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">cont</span><span class="p">,</span> <span class="n">extent</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">50</span><span class="p">],</span><span class="n">cmap</span><span class="o">=</span><span class="n">pylab</span><span class="o">.</span><span class="n">gray</span><span class="p">(),</span><span class="n">vmin</span><span class="o">=</span><span class="n">cont</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span><span class="n">vmax</span><span class="o">=</span><span class="n">cont</span><span class="o">.</span><span class="n">max</span><span class="p">())</span><span class="c1">#vmin=(cont.mean()-n*cont.std()),vmax=(cont.mean()+n*cont.std()))</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-26"></a><span class="n">ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">51</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-27"></a><span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">51</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-28"></a><span class="n">ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">51</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">minor</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-29"></a><span class="n">ax</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">51</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">minor</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-30"></a><span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s1">'both'</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s1">'major'</span><span class="p">,</span><span class="n">length</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">labelsize</span> <span class="o">=</span> <span class="mi">14</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-31"></a><span class="n">ax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s1">'both'</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s1">'minor'</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-32"></a><span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'(a)'</span><span class="p">,</span><span class="n">position</span><span class="o">=</span><span class="p">(</span><span class="o">.</span><span class="mo">05</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-33"></a><span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'[arcsec]'</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-34"></a><span class="c1">#ax.set_ylabel('[arcsec]',fontsize=20)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-35"></a><span class="n">divider</span> <span class="o">=</span> <span class="n">make_axes_locatable</span><span class="p">(</span><span class="n">ax</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-36"></a><span class="n">cax</span> <span class="o">=</span> <span class="n">divider</span><span class="o">.</span><span class="n">append_axes</span><span class="p">(</span><span class="s2">"right"</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mf">0.15</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-37"></a><span class="n">cbar</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">im</span><span class="p">,</span> <span class="n">cax</span><span class="o">=</span><span class="n">cax</span><span class="p">,</span><span class="n">orientation</span><span class="o">=</span><span class="s1">'vertical'</span><span class="p">)</span><span class="c1">#,ticks=np.arange(0.4,0.9,0.1))</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-38"></a><span class="n">cbar</span><span class="o">.</span><span class="n">set_label</span><span class="p">(</span><span class="s1">'IMaX line core'</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-39"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-40"></a><span class="n">cax</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">labelsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-41"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-42"></a><span class="n">ax4</span><span class="o">=</span><span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-43"></a><span class="n">im4</span><span class="o">=</span><span class="n">ax4</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">extent</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">50</span><span class="p">],</span><span class="n">cmap</span><span class="o">=</span><span class="n">pylab</span><span class="o">.</span><span class="n">gray</span><span class="p">(),</span><span class="n">vmin</span><span class="o">=</span><span class="n">B</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span><span class="n">vmax</span><span class="o">=</span><span class="n">B</span><span class="o">.</span><span class="n">max</span><span class="p">())</span><span class="c1">#vmin=(B.mean()-n*B.std()),vmax=(B.mean()+n*B.std()))</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-44"></a><span class="n">ax4</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">51</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-45"></a><span class="n">ax4</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">51</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-46"></a><span class="n">ax4</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">51</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">minor</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-47"></a><span class="n">ax4</span><span class="o">.</span><span class="n">set_yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">51</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">minor</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-48"></a><span class="n">ax4</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s1">'both'</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s1">'major'</span><span class="p">,</span><span class="n">length</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">labelsize</span> <span class="o">=</span> <span class="mi">14</span><span class="p">,</span><span class="n">labelleft</span><span class="o">=</span><span class="s1">'off'</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">'white'</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-49"></a><span class="n">ax4</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="s1">'both'</span><span class="p">,</span> <span class="n">which</span> <span class="o">=</span> <span class="s1">'minor'</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-50"></a><span class="n">ax4</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">'(b)'</span><span class="p">,</span><span class="n">position</span><span class="o">=</span><span class="p">(</span><span class="mf">0.05</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-51"></a><span class="n">ax4</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">'[arcsec]'</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-52"></a><span class="c1">#ax4.set_ylabel('[arcsec]',fontsize=18)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-53"></a><span class="n">divider4</span> <span class="o">=</span> <span class="n">make_axes_locatable</span><span class="p">(</span><span class="n">ax4</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-54"></a><span class="n">cax4</span> <span class="o">=</span> <span class="n">divider4</span><span class="o">.</span><span class="n">append_axes</span><span class="p">(</span><span class="s2">"right"</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mf">0.15</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-55"></a><span class="n">cbar4</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">im4</span><span class="p">,</span> <span class="n">cax</span><span class="o">=</span><span class="n">cax4</span><span class="p">,</span><span class="n">orientation</span><span class="o">=</span><span class="s1">'vertical'</span><span class="p">)</span><span class="c1">#,ticks=np.arange(0.4,0.9,0.1))</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-56"></a><span class="n">cax4</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">labelsize</span><span class="o">=</span><span class="mi">14</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-57"></a><span class="n">cbar4</span><span class="o">.</span><span class="n">set_label</span><span class="p">(</span><span class="s1">'IMaX continuum'</span><span class="p">,</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-58"></a><span class="n">plt</span><span class="o">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">wspace</span><span class="o">=.</span><span class="mi">4</span><span class="p">,</span> <span class="n">hspace</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-59"></a>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-60"></a><span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">'cont_lc.png'</span><span class="p">,</span><span class="n">dpi</span><span class="o">=</span><span class="mi">300</span><span class="p">)</span>
+<a name="rest_code_cea816ad31e045908d159a9899de009e-61"></a><span class="n">plt</span><span class="o">.</span><span class="n">clf</span><span class="p">()</span>
+</pre>
+</div>
+    </div>
+    <aside class="postpromonav"><nav></nav></aside></article><footer id="footer"><p>Contents © 2020         <a href="mailto:fakahil92@gmail.com">Fatima Kahil</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    
+    
+    
+            <script src="../../assets/js/jquery.min.js"></script><script src="../../assets/js/moment-with-locales.min.js"></script><script src="../../assets/js/fancydates.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
+</body>
+</html>

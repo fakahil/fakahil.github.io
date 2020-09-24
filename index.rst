@@ -40,7 +40,7 @@ Some of the calibration procedures which I have written for the PHI instrument c
 
 Functions and procedures written in Python that are useful for scientific research and general data science can be found `here <https://fakahil.github.io/coding/>`_ 
 
-My procedures and work on MURAM simulations can be found in `MURAM simulations <https://fakahil.github.io/muram/>`_.
+My procedures and work on MURAM simulations can be found in `MURAM simulations <https://fakahil.github.io/sunrise/>`_.
 
 I included a list of my `teaching and outreach activities <https://fakahil.github.io/teaching/>`_. 
 
