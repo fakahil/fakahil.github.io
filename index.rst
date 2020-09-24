@@ -35,7 +35,7 @@ My publications can be found here
 
 I divide my PhD project into mini projects which I blog about in `Sunrise <https://fakahil.github.io/sunrise/>`_ . In there one can find useful codes to analyse the Sunrise data with their current format.
 
-Some of the calibration procedures which I have written for the PHI instrument can be found in the `Solar Orbiter <https://fakahil.github.io/solo/>`_ page in a blog form.
+Some of the calibration procedures which I have written for the SO/PHI instrument can be found in the `Solar Orbiter <https://fakahil.github.io/solo/>`_ page in a blog form. The posts in this blog aim to better comprehend the theory and execution of image processing of data products of (solar) telescopes.  In particular, check my `phase diversity code <https://github.com/fakahil/Phase-Diversity-Reconstruction-code>`_ which I have written in Python to find the wavefront error of an optical system with a pair of focused and defocused images. It will be made into a package that could be installed.
 
 
 Functions and procedures written in Python that are useful for scientific research and general data science can be found `here <https://fakahil.github.io/coding/>`_ 
