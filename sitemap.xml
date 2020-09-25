@@ -283,7 +283,7 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/</loc>
-  <lastmod>2020-09-02T21:54:00Z</lastmod>
+  <lastmod>2020-09-25T12:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/from-wavefront-aberrations-to-point-spread-function-psf-to-modulation-transfer-function-mtf/index.html</loc>
@@ -291,15 +291,23 @@
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-compute-the-exit-pupil-size-of-a-telescope/index.html</loc>
-  <lastmod>2020-09-23T21:29:00Z</lastmod>
+  <lastmod>2020-09-24T17:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-do-phase-correlation-to-estimate-the-geometrical-shifts-between-two-images/index.html</loc>
   <lastmod>2020-09-23T21:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://fakahil.github.io/solo/how-to-estimate-the-amount-of-defocus-between-two-images/index.html</loc>
+  <lastmod>2020-09-24T16:30:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://fakahil.github.io/solo/how-to-restore-an-initial-scence-using-deconvolution/index.html</loc>
   <lastmod>2020-09-23T21:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://fakahil.github.io/solo/how-to-use-a-tilted-edge-in-an-imaging-target-to-characterize-the-mtf-of-the-telescope/index.html</loc>
+  <lastmod>2020-09-25T12:41:00Z</lastmod>
  </url>
  <url>
   <loc>https://fakahil.github.io/solo/how-to-use-the-circular-grid-calibration-target-to-estimate-the-geometrical-distortion-in-the-image-plane-of-a-telescope/index.html</loc>
